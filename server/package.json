@@ -4,12 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-<<<<<<< HEAD
-  "dev": "nodemon index.js"
-=======
-    "dev": "nodemon index.js"
->>>>>>> 51618df76ec01cfe05ee71cb6dc7a4e12b284a1c
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
