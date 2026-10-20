@@ -8,9 +8,7 @@ const app = express();
 app.use(express.json());
 dotenv.config();
 app.use(cors());
-app.use(cors({
-  origin: process.env.CLIENT_URL
-}));
+
 
 const PORT = process.env.PORT || 5000
 const URL = process.env.MONGOURL;
